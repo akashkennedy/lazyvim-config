@@ -1,10 +1,13 @@
 return {
-  -- disable blink.cmp
+  -- enable/disable blink.cmp
   { "saghen/blink.cmp", enabled = false },
 
-  -- enable nvim-cmp instead of blink.cmp
+  -- enable/disable nvim-cmp
   { "hrsh7th/nvim-cmp", enabled = true },
 
-  -- disable trouble
+  -- enable/disable trouble
   { "folke/trouble.nvim", enabled = false },
+
+  -- enable/disable copilot.nvim
+  { "github/copilot.vim", enabled = true },
 }
